@@ -4,7 +4,7 @@ export default {
   oidc: {
     clientId: CLIENT_ID,
     issuer: ISSUER,
-    redirectUri: 'http://localhost:8080/implicit/callback',
+    redirectUri: 'https://app.ethicsbowlchina.com/implicit/callback',
     scopes: ['openid', 'profile', 'email'],
     pkce: true,
     testing: {
@@ -12,6 +12,6 @@ export default {
     }
   },
   resourceServer: {
-    messagesUrl: 'http://localhost:8000/api/messages'
+    messagesUrl: 'https://app.ethicsbowlchina.com/api/messages'
   }
 }
