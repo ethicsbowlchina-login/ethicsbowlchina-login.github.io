@@ -20,9 +20,13 @@
     </p>
     <p>
       <a href="https://drive.google.com/drive/folders/1AD-k77IDCuA1S6DlI3OBmgIfdbyLiaIK?usp=sharing">PowerPoints: Ethical Theories and Applied Ethics</a>
-      <a href="https://drive.google.com/drive/folders/1yqsQ6SSVnQQgNGEUXcb1h105qxycRG-i?usp=sharing">Philosophy Club Discussion Topics and Readings</a>
-      <a href="https://drive.google.com/drive/folders/1lIG6fmQsW_8i5cT2CYMIelIlm3IrQvud?usp=sharing">How to Organize Philosophical Discussions</a>
     </p>
+    <p>
+      <a href="https://drive.google.com/drive/folders/1yqsQ6SSVnQQgNGEUXcb1h105qxycRG-i?usp=sharing">Philosophy Club Discussion Topics and Readings</a>
+</p>
+<p>
+      <a href="https://drive.google.com/drive/folders/1lIG6fmQsW_8i5cT2CYMIelIlm3IrQvud?usp=sharing">How to Organize Philosophical Discussions</a>
+</p>
   </div>
 </template>
 

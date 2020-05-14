@@ -15,16 +15,17 @@
     <h1 class="ui header">Welcome to Ethics Bowl China Online App!</h1>
     <div v-if="!this.$parent.authenticated">
       <p>Thank you for joining the Ethics Bowl China!</p>
-      <p>For participants, this platform provides access to premium resources designed for you to: </p>
+      <p><b>For participants, this platform provides access to premium resources designed for you to: </b></p>
       <p>1. Be better prepared for the Ethics Bowl.</p>
       <p>2. Learn ethical theories and applied ethics.</p>
       <p>3. Organize philosophical discussions for an Ethics Bowl club or any philosophy club!</p>
-      <p>These materials are free of charge for all participants of any Ethics Bowl China event!</p>
-      <p>For organizers, moderators, and volunteers, this platform is a collection of tools specially designed for Ethics Bowl China events. They include:</p>
+      <p><b>These materials are free of charge for all participants of any Ethics Bowl China event!</b></p>
+      <p><b>For organizers, moderators, and volunteers, this platform is a collection of tools specially designed for Ethics Bowl China events. They include:</b></p>
       <p>1. Random Match Assignment Tool</p>
       <p>2. Scorekeeping Tool</p>
       <p>3. Ethics Bowl China Timer</p>
       <p>Note: You might need a VPN to ensure high connection speed.</p>
+      <p>App developed by Leo Huang.</p>
       <button
         id="login-button"
         class="ui primary button"
@@ -33,22 +34,21 @@
       >
       Login
       </button>
-      <p>This app is developed by Leo Huang.</p>
     </div>
 
     <div v-if="this.$parent.authenticated">
       <p>Welcome back, {{claims.name}}!</p>
-      <p>
+      <p><b>
         You have successfully signed in to the Ethics Bowl China Online App.
         Thank you for registering for an Ethics Bowl China event!
-      </p>
-      <p>For participants, this platform provides access to <a href="/resources">premium resources</a> designed for you to: </p>
+      </b></p>
+      <p><b>For participants, this platform provides access to <a href="/resources">premium resources</a> designed for you to: </b></p>
       <p>1. Be better prepared for the Ethics Bowl.</p>
       <p>2. Learn ethical theories and applied ethics.</p>
       <p>3. Organize philosophical discussions for an Ethics Bowl club or any philosophy club!</p>
       <p>These materials are free of charge for all participants of any Ethics Bowl China event!</p>
       <p>Click <a href="/resources">here</a> to access the premium resources.</p>
-      <p>For organizers, moderators, and volunteers, this platform is <a href="/tools">a collection of tools</a> specially designed for Ethics Bowl China events. They include:</p>
+      <p><b>For organizers, moderators, and volunteers, this platform is <a href="/tools">a collection of tools</a> specially designed for Ethics Bowl China events. They include:</b></p>
       <p>1. Random Match Assignment Tool</p>
       <p>2. Scorekeeping Tool</p>
       <p>3. Ethics Bowl China Timer</p>

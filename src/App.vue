@@ -33,26 +33,6 @@
         Login
         </a>
         <router-link
-          to="/messages"
-          class="item"
-          id="messages-button"
-          v-if="authenticated"
-        >
-          <i
-            aria-hidden="true"
-            class="mail outline icon">
-          </i>
-          Messages
-        </router-link>
-        <router-link
-          to="/profile"
-          class="item"
-          id="profile-button"
-          v-if="authenticated"
-        >
-        Profile
-        </router-link>
-        <router-link
           to="/"
           id="logout-button"
           class="item"
@@ -60,6 +40,22 @@
           v-on:click.native="logout()"
         >
         Logout
+        </router-link>
+        <router-link
+          to="/resources"
+          class="item"
+          id="profile-button"
+          v-if="authenticated"
+        >
+        Resources
+        </router-link>
+        <router-link
+          to="/tools"
+          class="item"
+          id="profile-button"
+          v-if="authenticated"
+        >
+        Tools
         </router-link>
       </div>
     </div>
