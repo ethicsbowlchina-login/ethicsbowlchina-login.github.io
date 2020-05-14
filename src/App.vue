@@ -23,7 +23,7 @@
             src="./assets/logo.png"
           >
           &nbsp;
-          Okta-Vue Sample Project
+          Ethics Bowl China Online App
         </router-link>
         <a
           class="item"

@@ -17,8 +17,12 @@ import 'semantic-ui-css/semantic.min.css'
 import Auth from '@okta/okta-vue'
 
 import HomeComponent from '@/components/Home'
+/*
 import ProfileComponent from '@/components/Profile'
 import MessagesComponent from '@/components/Messages'
+*/
+import ToolsComponent from '@/components/Tools'
+import ResourcesComponent from '@/components/Resources'
 
 import sampleConfig from '@/config'
 
@@ -37,19 +41,34 @@ const router = new Router({
       component: Auth.handleCallback()
     },
     {
+      path: '/resources',
+      component: ResourcesComponent,
+      meta: {
+        requiresAuth: true
+      }
+    },
+    {
+      path: '/tools',
+      component: ToolsComponent,
+      meta: {
+        requiresAuth: true
+      }
+    }
+    /* {
       path: '/profile',
       component: ProfileComponent,
       meta: {
         requiresAuth: true
       }
     },
-    {
+     {
       path: '/messages',
       component: MessagesComponent,
       meta: {
         requiresAuth: true
       }
-    }
+      }
+      */
   ]
 })
 

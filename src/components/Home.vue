@@ -12,15 +12,19 @@
 
 <template>
   <div id="home">
-    <h1 class="ui header">PKCE Flow w/ Okta Hosted Login Page</h1>
+    <h1 class="ui header">Welcome to Ethics Bowl China Online App!</h1>
     <div v-if="!this.$parent.authenticated">
-      <p>If you‘re viewing this page then you have successfully started this Vue application.</p>
-      <p>This example shows you how to use the
-        <a href="https://github.com/okta/okta-oidc-js/tree/master/packages/okta-vue">Okta Vue Library</a> to add the
-        <a href="https://developer.okta.com/docs/guides/implement-auth-code-pkce">PKCE Flow</a> to your application.</p>
-      <p>When you click the login button below, you will be redirected to the login page on your Okta org. After you authenticate,
-        you will be returned to this application with an ID token and access token. These tokens will be stored in local storage
-        and can be retrieved at a later time.</p>
+      <p>Thank you for joining the Ethics Bowl China!</p>
+      <p>For participants, this platform provides access to premium resources designed for you to: </p>
+      <p>1. Be better prepared for the Ethics Bowl.</p>
+      <p>2. Learn ethical theories and applied ethics.</p>
+      <p>3. Organize philosophical discussions for an Ethics Bowl club or any philosophy club!</p>
+      <p>These materials are free of charge for all participants of any Ethics Bowl China event!</p>
+      <p>For organizers, moderators, and volunteers, this platform is a collection of tools specially designed for Ethics Bowl China events. They include:</p>
+      <p>1. Random Match Assignment Tool</p>
+      <p>2. Scorekeeping Tool</p>
+      <p>3. Ethics Bowl China Timer</p>
+      <p>Note: You might need a VPN to ensure high connection speed.</p>
       <button
         id="login-button"
         class="ui primary button"
@@ -29,32 +33,26 @@
       >
       Login
       </button>
+      <p>This app is developed by Leo Huang.</p>
     </div>
 
     <div v-if="this.$parent.authenticated">
       <p>Welcome back, {{claims.name}}!</p>
       <p>
-        You have successfully authenticated against your Okta org, and have been redirected back to this application.  You now have an ID token and access token in local storage.
-        Visit the <a href="/profile">My Profile</a> page to take a look inside the ID token.
+        You have successfully signed in to the Ethics Bowl China Online App.
+        Thank you for registering for an Ethics Bowl China event!
       </p>
-      <h3>Next Steps</h3>
-      <p>
-        Currently this application is a stand-alone front end application.
-        At this point you can use the access token to authenticate yourself against resource servers that you control.
-      </p>
-      <p>
-        This sample is designed to work with one of our resource server examples.
-        To see access token authentication in action, please download one of these resource server examples:
-      </p>
-      <ul>
-        <li
-          v-for="(example, index) in resourceServerExamples"
-          :key="index"
-        >
-          <a :href="example.url">{{example.label}}</a>
-        </li>
-      </ul>
-      <p>Once you have downloaded and started the example resource server, you can visit the <a href="/messages">My Messages</a> page to see the authentication process in action.</p>
+      <p>For participants, this platform provides access to <a href="/resources">premium resources</a> designed for you to: </p>
+      <p>1. Be better prepared for the Ethics Bowl.</p>
+      <p>2. Learn ethical theories and applied ethics.</p>
+      <p>3. Organize philosophical discussions for an Ethics Bowl club or any philosophy club!</p>
+      <p>These materials are free of charge for all participants of any Ethics Bowl China event!</p>
+      <p>Click <a href="/resources">here</a> to access the premium resources.</p>
+      <p>For organizers, moderators, and volunteers, this platform is <a href="/tools">a collection of tools</a> specially designed for Ethics Bowl China events. They include:</p>
+      <p>1. Random Match Assignment Tool</p>
+      <p>2. Scorekeeping Tool</p>
+      <p>3. Ethics Bowl China Timer</p>
+      <p>Click <a href="/tools">here</a> to access these useful tools for Ethics Bowl China events.</p>
     </div>
   </div>
 </template>
