@@ -16,35 +16,8 @@
       Tools
     </h1>
     <p>
-      Below is a list of tools. Please feel free to access.
+      Please access the tools specially designed for the Ethics Bowl China events <a href="https://sieb.ethicsbowlchina.com/tools">here.
     </p>
-    <h3><center>You might need VPN tools to run this website properly.</center></h3>
-    <br>
-    <br>
-    <br>
-    <h2><center>Coin Flipper</center></h2>
-    <iframe id="oak-embed" width="100%" height="100%" scrolling="no" frameborder="0" src="https://justflipacoin.com/?c=white"></iframe>
-    <br>
-    <br>
-    <br>
-    <h2><center>Ethics Bowl Timer</center></h2>
-    <iframe id="oak-embed" width="100%" height="100%" frameborder="0" src="https://embed-timer.onlinealarmkur.com/en/"></iframe>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <h2><center>Random Match Assignment Tool</center></h2>
-    <iframe id="oak-embed" width="100%" height="100%" frameborder="0" src="http://chir.ag/projects/team-maker/"></iframe>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <h2><center>Scoring System</center></h2>
-    <iframe width="100%" height="100%" frameborder="0" src="https://docs.google.com/spreadsheets/d/1908gzrUqw4JL2qh2iFEzjpyaYEBuOqZm5sAtG0Ki9rs/edit?usp=sharing"></iframe>
   </div>
 </template>
 
